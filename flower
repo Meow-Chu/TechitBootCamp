@@ -1,0 +1,152 @@
+ * {
+    margin-left: auto;
+    margin-right: auto;
+   
+} 
+
+.flower {
+    margin-top:100px;
+}
+.main-circle {
+    width:200px;
+    height:200px;
+    background-color: rgb(246, 235, 140);
+    border-radius: 45% 55% 40% 45%;
+    position: relative;
+    z-index: 10;
+    animation: Moving 3s infinite alternate;
+  
+  
+}
+
+button {
+    display:block;
+   background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30%;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.btn1 {
+    position: relative;
+        top: 60px;
+        right:40px;
+}
+
+.btn2 {
+    position: relative;
+        top: 31px;
+}
+
+p {
+    position: relative;
+    font-size: 40px;
+    color: red;
+    left:60px;
+    top:20px;
+}
+.circle1 {
+ width:140px;
+    height:140px;
+    background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+    border: 1px solid black;
+    position: relative;
+bottom:30px;
+animation: Moving 2.5s infinite alternate;
+
+   
+}
+
+.circle2 {
+ width:140px;
+    height:140px;
+background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+       border: 1px solid black;
+    position: relative;
+bottom:250px;
+left:120px;
+animation: Moving 2.5s infinite alternate;
+   
+}
+
+.circle3 {
+ width:140px;
+    height:140px;
+background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+       border: 1px solid black;
+    position: relative;
+bottom:530px;
+left:100px;
+animation: Moving 2.5s infinite alternate;
+   
+}
+
+.circle4 {
+    width: 140px;
+    height: 140px;
+background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+    border: 1px solid black;
+    position: relative;
+bottom: 720px;
+    right:40px;
+    animation: Moving 2.5s infinite alternate;
+
+}
+
+
+
+.circle5 {
+ width:140px;
+    height:140px;
+background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+       border: 1px solid black;
+    position: relative;
+bottom: 770px;
+    right: 140px;
+    animation: Moving 2.5s infinite alternate;
+   
+}
+
+.circle6 {
+    width: 140px;
+    height: 140px;
+    background-color: rgb(224, 150, 66);
+    border-radius: 50% 50% 50% 50%;
+    border: 1px solid black;
+    position: relative;
+bottom: 810px;
+    right: 110px;
+    animation: Moving 2.5s infinite alternate;
+
+}
+
+
+
+@keyframes Moving {
+    0% {
+        transform: translate(-50%) rotate(0deg) scale(1);
+    }
+
+    25% {
+        transform: translate(-50%) rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%) rotate(-10deg) scale(1);
+    }
+
+    80% {
+        transform: translate(-50%) rotate(10deg) scale(1);
+    }
+
+    to {
+        transform: translate(-50%) rotate(-20deg) scale(1.2);
+    }
+}
