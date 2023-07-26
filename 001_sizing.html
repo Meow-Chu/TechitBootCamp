@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!doctype html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <!-- h${hello}*6 enter대신 tab -->
+        <!-- reset css가 기본으로 들어가 있습니다. -->
+        <h1 class="text-3xl">hello</h1>
+        <h2>hello</h2>
+        <h3>hello</h3>
+        <h4>hello</h4>
+        <h5>hello</h5>
+        <h6>hello</h6>
+        <hr>
+
+
+        <!-- bg-red-200 : red color 숫자가 높아질수록 진해짐 -->
+
+        <!-- shadow : 그림자, rounded : radius -->
+
+        <!--
+        w-96 : 96%나 96px이 아님, 0.25rem*96임
+        https://tailwindcss.com/docs/width
+    -->
+
+
+        <div class="divide-y-2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="border-4 border-red-500">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </body>
+
+    </html>
+    <h1 class="text-3xl">hello</h1>
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+    <hr>
+    <div class="divide-y-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="border-4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+    <div class="border-4 border-red-500">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+
+
+
+    <!-- space-y-8 : 각 요소의 간격, 1이 0.25rem
+            y-4 이면 1rem (4*0.25rem) -->
+
+    <!--
+            0.25 rem이 아닌 것 중 자주 사용하는 것 
+            board-2 : 2px 
+            divide-y-2 : 2px
+            outline-2 : 2px        
+            이쪽을 rem으로 하면 난잡해짐
+        -->
+    <div class="space-y-4 bg-red-200 mt4">
+        <!-- div{$번째} div요소*8 enter대신 tab -->
+        <div class="w-96 bg-white">1번째 div요소</div>
+        <div class="w-80 bg-white">2번째 div요소</div>
+        <!-- 갭사이의 숫자를 넣어버리면 width값이 뷰포트너비로 꽉차버리는데 그 이유는 해당하는 값이 없기 때문이다. 태일랜드는 css를 100% 구현하려고 만든게 아니라 의도적으로 공백을 만들어낸거임...  -->
+        <div class="w-56 bg-white">6번째 div요소</div>
+        <div class="w-52 bg-white">7번째 div요소</div>
+        <div class="w-48 bg-white">8번째 div요소</div>
+
+        <!-- 자주쓰는 width 단위-->
+        <div class="w-1/4 bg-white">test 번째 div요소</div>
+        <div class="w-2/4 bg-white">test 번째 div요소</div>
+        <div class="w-3/4 bg-white">test 번째 div요소</div>
+    </div>
+
+</body>
+
+</html>
