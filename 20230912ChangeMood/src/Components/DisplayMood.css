@@ -1,0 +1,9 @@
+.mood-container {
+  border: solid 2px black;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.li {
+  list-style: none;
+  padding: 0;
+}
+
+.btn-item {
+  width: 100%;
+  font-size: 15px;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+}
+
+.btn-item:hover {
+  background-color: yellowgreen;
+}
