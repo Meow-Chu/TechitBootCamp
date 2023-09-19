@@ -1,0 +1,264 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.a11y {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: var(
+    --gradient2,
+    radial-gradient(293.21% 130.49% at 3.59% 5.28%, #f0f4ff 0%, #a5b6ee 100%)
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+  font-family: Pretendard;
+}
+
+article {
+  border-radius: 16px;
+  background: var(
+    --gradient,
+    linear-gradient(144deg, #5572bb 2.13%, #374b7c 102.97%)
+  );
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  padding: 48px;
+}
+
+h2 {
+  display: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+h2::after {
+  content: "";
+  width: 312px;
+  height: 1px;
+  background: #3d538a;
+  margin: 23px 0 23px;
+  display: block;
+}
+
+.timer-category {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.timer-box {
+  width: 80px;
+  height: 80px;
+  background-image: url("../image/box.png");
+  color: #fff;
+  text-align: center;
+  font-family: Pretendard-Bold;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  margin: 4px 0 40px;
+}
+
+.dot {
+  line-height: 140px;
+}
+
+li {
+  color: var(--light, #a5b6ee);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* button */
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  border: none;
+  width: 112px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.start,
+.reset {
+  color: #617199;
+
+  border-radius: 50px;
+  background: #324577;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.05) inset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.reset_ver2 {
+  background: #fb7099;
+}
+
+.phase {
+  background: #15c2b8;
+  display: none;
+}
+
+.start_ver2 {
+  background: #5180ff;
+}
+
+footer span {
+  color: #8596bf;
+}
