@@ -1,5 +1,3 @@
-hello a conflict 실습
-
 # GaryWorld
 
 깃헙연습용
