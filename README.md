@@ -1,5 +1,3 @@
-hello b conflict 실습코드
-
 # GaryWorld
 
 깃헙연습용
