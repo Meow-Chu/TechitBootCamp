@@ -1,0 +1,6 @@
+some.html
+*.jpg
+
+temp/
+
+!temp
